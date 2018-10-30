@@ -1,20 +1,227 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<!-- START:Header Section -->
+<header class="header-pane">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-6">
+              <div class="logo"></div>
+          </div>
+          <div class="col-6 text-right logged-user">
+                  <img src="assets/images/inbox-user.png" /> Dr. John Scaria
+          </div>
+      </div>
+  </div>
+</header>
+<!-- END:Header Section -->
+<!-- START:Main Content Section -->
+<section class="main-content-pane">
+    <div class="quick-menu-bar">
+        <div class="qm-box deep-blue"><i class="fas fa-stethoscope"></i></div>
+        <div class="qm-box orange"><i class="fas fa-clipboard-list"></i></div>
+        <div class="qm-box light-blue"><i class="far fa-comments"></i></div>
+        <div class="qm-box deep-blue"><i class="fas fa-users-cog"></i></div>
+        <div class="qm-box orange"><i class="fas fa-female"></i></div>
+        <div class="qm-box light-blue"><i class="fas fa-hammer"></i></div>
+        <div class="qm-box deep-blue"><i class="far fa-question-circle"></i></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- START:Left Menu -->
+            <div class="col-md-2 left-menu-pane">
+                <div class="left-menu">
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu1.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu2.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu3.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu4.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu5.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu6.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-icon">
+                            <img src="assets/images/menu7.png" />
+                        </div>
+                        <div class="red-badge">12</div>
+                    </div>
+                </div>
+            </div>
+            <!-- END:Left Menu -->
+            <!-- START:Column 1 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <h2>Epic InBasket
+                        <span class="red-badge">17</span>
+                    </h2>
+                    <div class="basket-listing">Documents to Sign
+                        <span class="blue-badge">5</span>
+                    </div>
+                    <div class="basket-listing">Results to Review
+                        <span class="blue-badge">5</span>
+                    </div>
+                    <div class="basket-listing">Medication Refills
+                        <span class="blue-badge">5</span>
+                    </div>
+                    <div class="basket-listing">Category
+                        <span class="blue-badge">5</span>
+                    </div>
+                    <div class="basket-listing">Results to Review
+                        <span class="blue-badge">5</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Outlook 365 Inbox
+                        <span class="red-badge">17</span>
+                    </h2>
+                    <div class="inbox-item">
+                        <div class="inbox-thumb">
+                            <img src="assets/images/inbox-user.png" />
+                        </div>
+                        <div>
+                            <div class="inbox-name">Jerin
+                                <div class="inbox-time">10.30 am</div>
+                            </div>
+                            <div class="inbox-message">Hi John, It was a please meeting with you. Great to see you
+                                a long while.</div>
+                        </div>
+                    </div>
+                    <div class="inbox-item">
+                        <div class="inbox-thumb">
+                            <img src="assets/images/inbox-user.png" />
+                        </div>
+                        <div>
+                            <div class="inbox-name">Jerin
+                                <div class="inbox-time">10.30 am</div>
+                            </div>
+                            <div class="inbox-message">Hi John, It was a please meeting with you. Great to see you
+                                a long while.</div>
+                        </div>
+                    </div>
+                    <div class="inbox-item deactivated">
+                        <div class="inbox-thumb">
+                            <img src="assets/images/inbox-user.png" />
+                        </div>
+                        <div>
+                            <div class="inbox-name">Jerin
+                                <div class="inbox-time">10.30 am</div>
+                            </div>
+                            <div class="inbox-message">Hi John, It was a please meeting with you. Great to see you
+                                a long while.</div>
+                        </div>
+                    </div>
+                    <div class="inbox-item deactivated">
+                        <div class="inbox-thumb">
+                            <img src="assets/images/inbox-user.png" />
+                        </div>
+                        <div>
+                            <div class="inbox-name">Jerin
+                                <div class="inbox-time">10.30 am</div>
+                            </div>
+                            <div class="inbox-message">Hi John, It was a please meeting with you. Great to see you
+                                a long while.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END:Column 1 -->
+            <!-- START:Column 2 -->
+            <div class="col-md-4">
+                <div class="card schedule-pane">
+                    <h2>Schedules
+                        <span class="red-badge">17</span>
+                    </h2>
+                    <div class="schedule-box active">
+                        <div class="timer">9:00<br />am</div>
+                        <h3>Epic Schedule</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="schedule-box">
+                        <div class="timer">9:00<br />am</div>
+                        <h3>Epic Schedule</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="schedule-box">
+                        <div class="timer">9:00<br />am</div>
+                        <h3>Epic Schedule</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="schedule-box">
+                        <div class="timer">9:00<br />am</div>
+                        <h3>Epic Schedule</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="schedule-box">
+                        <div class="timer">9:00<br />am</div>
+                        <h3>Epic Schedule</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END:Column 2 -->
+            <!-- START:Column 3 -->
+            <div class="col-md-3">
+                <div class="card">
+                    <h2>Announcements
+                        <span class="red-badge">17</span>
+                    </h2>
+                    <div class="Announcements">
+                        <strong>Epic Schedule</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>News Feed
+                        <span class="red-badge">17</span>
+                    </h2>
+                    <div class="Announcements">
+                        <strong>Epic Schedule</strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Quote of the Day
+                        <span class="red-badge">17</span>
+                    </h2>
+                    <div class="Announcements">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- END:Column 3 -->
+        </div>
+    </div>
+  </section>

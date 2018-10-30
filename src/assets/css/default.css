@@ -1,0 +1,216 @@
+body{
+    background: #f0f3f8;
+    font-family: 'Lato', sans-serif;
+}
+.header-pane{
+    background: #115fa1;
+    border-bottom: solid 1px #2f5a6b;
+    padding: 13px 0px;
+}
+.logo{
+    width: 226px;
+    height: 46px;
+    background: url(../images/logo.png) no-repeat center top;
+}
+.left-menu{
+    background: #fff;
+    /* height:calc(100vh - 120px); */
+    padding: 32px;
+}
+.main-content-pane{
+    padding: 15px 0 0 0;
+    position: relative;
+}
+.card{
+    border-radius: 12px;
+    background: #fff;
+    border: none;
+    margin-bottom: 21px;
+    box-shadow: 4px 5px 11px 0px #e0e0e0;
+}
+.card h2{
+    font-weight: 700;
+    color: #2c343a;
+    border-bottom: solid 1px #e6e5e5;
+    font-size: 23px;
+    padding: 16px 20px 10px;
+    margin: 0px;
+}
+.red-badge{
+    color: #fff;
+    font-size: 14px;
+    background: #ef606a;
+    border-radius: 55%;
+    text-align: center;
+    line-height: 16px;
+    padding: 7px;
+    float: right;
+    height: 31px;
+    box-shadow: 2px 2px 7px #d4d0d0;
+}
+.blue-badge{
+    color: #fff;
+    font-size: 12px;
+    background: #115fa1;
+    border-radius: 55%;
+    text-align: center;
+    line-height: 16px;
+    padding: 1px 5px;
+    float: right;
+    margin-right: 6px;
+    box-shadow: 2px 2px 7px #d4d0d0;
+}
+.basket-listing{
+    color: #7c8a9c;
+    font-size: 14px;
+    border-bottom: solid 1px #e6e5e5;
+    padding: 7px 20px 7px;
+    font-weight: 700;
+}
+.menu-icon{
+    width: 70px;
+    height: 60px;
+    box-shadow: 0px 13px 1px #e6e6e6;
+    border: solid 1px #d6d6d6;
+}
+.menu-icon img{
+    width: 100%;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.inbox-item{
+    border-bottom: solid 1px #e6e5e5;
+    padding:10px 20px 10px;
+    display: flex;
+}
+.inbox-item .inbox-name{
+    font-size: 15px;
+    font-weight: 700;
+}
+.inbox-item .inbox-time{
+    font-size: 12px;
+    float: right;
+}
+.inbox-item .inbox-message{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.inbox-thumb img{
+    border-radius: 49%;
+    margin-right: 9px;
+}
+.deactivated{
+    color: #898989;
+}
+.deactivated img{
+    opacity:.5;
+}
+.schedule-pane{
+    padding-bottom:14px; 
+}
+.schedule-box{
+    border-radius: 10px;
+    background: #e4e4e4;
+    color:#565656;
+    margin: 14px 14px 0px 14px;
+    padding: 10px 10px 10px 60px;
+    position: relative;
+}
+.schedule-box.active{
+    background: #29c6b1;
+    color:#dcfefb;
+}
+.schedule-box p{
+    font-size: 12px;
+    margin: 0px;
+    line-height: 16px;
+}
+.schedule-box h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0 4px;
+}
+.schedule-box .timer{
+    background: #e4e4e4;
+    border: solid 6px #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    width: 61px;
+    top: 21px;
+    text-align: center;
+    line-height: 12px;
+    font-size: 13px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule-box.active .timer{
+    background: #29c6b1;
+}
+.schedule-box:after{
+    display: block;
+    width: 3px;
+    height: 15px;
+    background: #6f6f6f;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+}
+.schedule-pane .schedule-box:last-child:after{
+    display: none;
+}
+.Announcements{
+    padding: 10px 17px;
+}
+.Announcements p{
+    font-size: 12px;
+}
+.quick-menu-bar{
+    position: fixed;
+    right:0px;
+    top: 135px;
+    z-index: 500;
+    width: 50px;
+}
+.qm-box{
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom: solid 1px #f0f3f8;
+    cursor: pointer;
+}
+.qm-box.deep-blue{
+    background: #013766;
+}
+.qm-box.orange{
+    background: #f3691e;
+}
+.qm-box.light-blue{
+    background: #288dc1;
+}
+.qm-box i{
+    font-size: 26px;
+}
+.logged-user{
+    color: #fff;
+}
+.logged-user img{
+    border-radius: 50%;
+    margin-right: 5px;
+    border: solid 2px #FFF;
+    width: 44px;
+}
+@media (min-width: 768px) { 
+    .col-md-2.left-menu-pane{
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+}
