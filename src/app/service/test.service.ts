@@ -10,7 +10,6 @@ export class testService {
     constructor(private _httpClient:HttpClient){}
 
     getScheduleData(){
-        debugger;
         return this._httpClient.get(appConfig.apiUrl);
     }
 }

@@ -1,27 +1,109 @@
+<div *ngFor="let sche of data">
+    {{sche.schedulesTitle}}
+</div>
 <!-- START:Header Section -->
 <header class="header-pane">
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col-6">
-              <div class="logo"></div>
-          </div>
-          <div class="col-6 text-right logged-user">
-                  <img src="assets/images/inbox-user.png" /> Dr. John Scaria
-          </div>
-      </div>
-  </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="logo"></div>
+            </div>
+            <div class="col-6 text-right logged-user">
+                <img src="assets/images/inbox-user.png" /> Dr. John Scaria
+            </div>
+        </div>
+    </div>
 </header>
 <!-- END:Header Section -->
 <!-- START:Main Content Section -->
 <section class="main-content-pane">
     <div class="quick-menu-bar">
-        <div class="qm-box deep-blue"><i class="fas fa-stethoscope"></i></div>
-        <div class="qm-box orange"><i class="fas fa-clipboard-list"></i></div>
-        <div class="qm-box light-blue"><i class="far fa-comments"></i></div>
-        <div class="qm-box deep-blue"><i class="fas fa-users-cog"></i></div>
-        <div class="qm-box orange"><i class="fas fa-female"></i></div>
-        <div class="qm-box light-blue"><i class="fas fa-hammer"></i></div>
-        <div class="qm-box deep-blue"><i class="far fa-question-circle"></i></div>
+        <div class="qm-box deep-blue saint-dropdown">
+            <i class="fas fa-stethoscope"></i>
+            <span>Clinical</span>
+            <div class="saint-dropdown-content">
+                <div>Epic In Basket</div>
+                <div>Epic Schedule</div>
+                <div>Chat with Epic Expert</div>
+                <div>UpToDate - Medical Reference</div>
+                <div>PubMed - Medical Reference</div>
+                <div>Lexicomp - Clinical Drug Reference</div>
+                <div>Epic Matters</div>
+                <div>InTouch - Telemedicine</div>
+            </div>
+        </div>
+        <div class="qm-box orange saint-dropdown">
+            <i class="fas fa-clipboard-list"></i>
+            <span>Communication</span>
+            <div class="saint-dropdown-content">
+                <div>Outlook Inbox</div>
+                <div>Outlook Calendar</div>
+                <div>Physician Paging System</div>
+                <div>Instant Messaging</div>
+            </div>
+        </div>
+        <div class="qm-box light-blue saint-dropdown">
+            <i class="far fa-comments"></i>
+            <span>Essentials</span>
+            <div class="saint-dropdown-content">
+                <div>HealthStream</div>
+                <div>Med-IQ</div>
+                <div>Credentialing/Licensing</div>
+                <div>Policies & Procedures</div>
+                <div>Malpractice Insurance</div>
+                <div>Flu Shots</div>
+            </div>
+        </div>
+        <div class="qm-box deep-blue saint-dropdown">
+            <i class="fas fa-users-cog"></i>
+            <span>SLPG</span>
+            <div class="saint-dropdown-content">
+                <div>ePulse</div>
+                <div>Provider Requirements</div>
+                <div>Newsletters</div>
+                <div>Standing Orders & Medical Protocols</div>
+                <div>Physician Directory</div>
+                <div>Find a Doctor</div>
+                <div>Find a Location</div>
+                <div>SLPG Provider Help</div>
+            </div>
+        </div>
+        <div class="qm-box orange saint-dropdown">
+            <i class="fas fa-female"></i>
+            <span>HR</span>
+            <div class="saint-dropdown-content">
+                <div>Workday</div>
+                <div>Conflict of Interest</div>
+                <div>Open Enrollment</div>
+                <div>My Health Toolkit</div>
+            </div>
+        </div>
+        <div class="qm-box light-blue saint-dropdown">
+            <i class="fas fa-hammer"></i>
+            <span>Professional</span>
+            <div class="saint-dropdown-content">
+                <div>CME Credits</div>
+            </div>
+        </div>
+        <div class="qm-box deep-blue saint-dropdown">
+            <i class="far fa-question-circle"></i>
+            <span>Personal</span>
+            <div class="saint-dropdown-content">
+                <div>inspirational quotes</div>
+                <div>Fun Facts</div>
+            </div>
+        </div>
+        <div class="qm-box deep-blue saint-dropdown">
+            <i class="far fa-question-circle"></i>
+            <span>Productivity</span>
+            <div class="saint-dropdown-content">
+                <div>Outlook</div>
+                <div>Word</div>
+                <div>Excel</div>
+                <div>Powerpoint</div>
+                <div>Citrix</div>
+            </div>
+        </div>
     </div>
     <div class="container-fluid">
         <div class="row">
@@ -224,4 +306,4 @@
             <!-- END:Column 3 -->
         </div>
     </div>
-  </section>
+</section>

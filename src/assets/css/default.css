@@ -178,14 +178,15 @@ body{
     right:0px;
     top: 135px;
     z-index: 500;
-    width: 50px;
+    width: 62px;
 }
 .qm-box{
-    padding: 10px;
+    padding: 10px 10px 3px 10px;
     color: #fff;
     text-align: center;
     border-bottom: solid 1px #f0f3f8;
     cursor: pointer;
+    width: 62px;
 }
 .qm-box.deep-blue{
     background: #013766;
@@ -198,6 +199,12 @@ body{
 }
 .qm-box i{
     font-size: 26px;
+}
+.qm-box span{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 .logged-user{
     color: #fff;
